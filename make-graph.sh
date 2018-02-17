@@ -1,7 +1,7 @@
 #!/bin/bash
 gnuplot << EOS
-set term pdf;
-set output "lo-per-le.pdf";
+set term svg;
+set output "lo-per-le.svg";
 set size 1.1, 1;
 set rmargin 10; \
 set lmargin 10; \
@@ -22,8 +22,8 @@ plot "analysed.txt" using (\$0*2.8+1):2:xticlabels(1) with boxes lc rgb "black" 
 EOS
 
 gnuplot << EOS
-set term pdf;
-set output "oi-per-UI.pdf";
+set term svg;
+set output "oi-per-UI.svg";
 set size 1.1, 1;
 set rmargin 10; \
 set lmargin 10; \
