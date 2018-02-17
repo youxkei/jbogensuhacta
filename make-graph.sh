@@ -14,7 +14,7 @@ set boxwidth 0.5 absolute;
 set bar 0.6;
 set grid ytics noxtics;
 set mytics 1;
-set xtics nomirror rotate by -90;
+set xtics nomirror rotate by -90 scale 0;
 set grid ytics noxtics;
 set key;
 set logscale y 10;
@@ -36,7 +36,7 @@ set boxwidth 0.5 absolute;
 set bar 0.6;
 set grid ytics noxtics;
 set mytics 1;
-set xtics nomirror rotate by -90;
+set xtics nomirror rotate by -90 scale 0;
 set grid ytics noxtics;
 set key;
 plot "analysed.txt" using (\$0*2.8+1):3:xticlabels(1) with boxes lc rgb "black" fs solid 0.5 title ""
