@@ -19,4 +19,4 @@ Analysis on lojban corpus
 ./make-graph.sh
 ```
 
-You'll get results of the analysis as `analysed.txt`, `lo-per-le.pdf`, `oi-per-UI.pdf`
+You'll get results of the analysis as `invalid-jufra.txt`, `analysed.txt`, `lo-per-le.svg`, `oi-per-UI.svg`
